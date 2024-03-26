@@ -1,0 +1,113 @@
+/*ESTILIZAÇÃO DA PÁGINA INSTALAÇÕES*/
+body{
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 100px 50px 50px 20px; 
+    text-align:center;     
+}
+
+h2{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 100px 50px 50px 20px; 
+    text-align:center; 
+}
+
+p{
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 1px;
+    line-height: 35px;
+    text-indent: 50px;      
+}
+
+ul {
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Display as flexbox */
+    flex-wrap: wrap; /* Wrap items to next line if needed */
+    justify-content: space-between; /* Distribute items evenly */
+    
+}
+  
+  li {
+    margin: 10px; /* Add margin between images */
+}
+img {
+    display: block;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+  
+
+  img {
+    max-width: 100%; /* Permite que as imagens se expandam para o tamanho máximo do container */
+    height: auto; /* Ajusta a altura automaticamente */
+}
+
+  img {
+    border: 1px solid #3ccaf5; /* Adiciona uma borda AZUL*/
+ }
+  img {
+    box-shadow: 0 0 5px rgba(16, 236, 34, 0.3); /* Adiciona uma sombra leve */
+}
+
+ 
+  
+
+
+
+/* Responsiveness */
+
+/* Styles for desktops (larger screens) */
+@media only screen and (min-width: 900px) {
+    body {
+      font-size: 18px; /* Base font size for desktop */
+    }
+  
+    h1 {
+      font-size: 2.2em; /* Increase relative to base (around 40px) */
+    }
+  
+    h2 {
+      font-size: 1.8em; /* Increase relative to base (around 32px) */
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  
+    img {
+      max-width: 80%; /* Adjust as needed for desktop layout */
+    }
+  }
+  
+  /* Styles for tablets and mobile (smaller screens) */
+  @media only screen and (max-width: 900px) {
+    body {
+      font-size: 16px; /* Base font size for smaller screens */
+    }
+  
+    h1 {
+      font-size: 1.5em; /* Increase relative to base (around 24px) */
+    }
+  
+    h2 {
+      font-size: 1.2em; /* Increase relative to base (around 20px) */
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  
+    img {
+      max-width: 100%; /* Ensure images scale down on small screens */
+    }
+  }

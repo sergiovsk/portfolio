@@ -1,0 +1,50 @@
+/*Estilização da página index*/
+.capa {
+  height: 100vh; /* Altura da tela */
+  width: 100vw; /* Largura da tela */
+  display: flex; /* Contêiner flexbox */
+  flex-direction: column; /* Coluna */
+  justify-content: center; /* Alinha verticalmente no centro */
+  align-items: center; /* Alinha horizontalmente no centro */
+ 
+}
+
+.img {
+  max-width: 100%; /* Largura máxima da imagem */
+  max-height: 100%; /* Altura máxima da imagem */
+  object-fit: cover; /* Ajusta a imagem para caber no container */
+}
+
+/*Responsividade*/
+
+@media only screen and (max-width: 768px) {
+  /* Estilos para telas com largura máxima de 768px */
+  body {
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+
+  
+}
+
+@media only screen and (min-width: 768px) {
+  /* Estilos para telas com largura mínima de 768px */
+  body {
+    font-size: 18px;
+  }
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+}
+@media (max-width: 768px) {
+  img {
+    max-width: 500px;
+  }
+}
+
+
